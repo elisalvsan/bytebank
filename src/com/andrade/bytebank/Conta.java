@@ -6,6 +6,6 @@ public class Conta {
     public String titular;
 
     public void desposita(double valor){
-
+        this.saldo = this.saldo + valor;
     }
 }
