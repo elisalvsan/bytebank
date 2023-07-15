@@ -10,5 +10,13 @@ public class TestaMetodo {
         conta.saldo = 100;
         conta.desposita(50);
         System.out.println(conta.saldo);
+
+        boolean retiraValor = conta.saca(35);
+        System.out.println(conta.saldo);
+        System.out.println(retiraValor);
+
+        retiraValor = conta.saca(600);
+        System.out.println(conta.saldo);
+        System.out.println(retiraValor);
     }
 }
